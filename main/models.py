@@ -1,7 +1,7 @@
 from operator import mod
 from statistics import mode
 from django.db import models
-from django.contrib import admin
+from .admin import *
 
 # Create your models here.
 class TestModel(models.Model):
